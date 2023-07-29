@@ -14,7 +14,10 @@ function pedir() {
         alert('Selecionado 3 - Sorvete*')
         break;
     case 4: 
-        alert('Selecionado 4 - Garçom*')
+        alert("Selecionado 4 - Sorvete Lite")
+        break;
+    case 5: 
+        alert('Selecionado 5 - Garçom*')
         break;
     default: 
         alert('Opções 1 (Suco), 2 (Agua gelada), 3 (Sorvete), 4 (Garçom)')

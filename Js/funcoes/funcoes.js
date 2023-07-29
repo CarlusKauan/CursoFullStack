@@ -9,6 +9,7 @@ function entrar() {
     } else {
         area.innerHTML = "Bem Vindo " + nome;
 
+        // Criando button - botaõSair
         let botaoSair = document.createElement("button");
         botaoSair.innerText = "Sair da conta"
         botaoSair.onclick = sair;

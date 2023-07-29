@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de IMC</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Titulo h1 -->
+        <h1>IMC (Índice de massa corporal)</h1>
+        <!-- retorna event no formulario submit -->
+        <form onsubmit="return calcular(event)">
+            <!-- label nome -->
+            <label>Digite o seu nome: </label> <br />
+            <input type="text" placeholder="Digite o seu nome" name="nome" id="nome"> <br />
+            <!-- label peso -->
+            <label>Digite o seu peso: </label> <br />
+            <input type="text" name="peso" id="peso" placeholder="Exemplo 65"/> <br />
+            <!-- label altura-->
+            <label>Digite sua altura: </label> <br/>
+            <input type="text" name="altura" id="altura" placeholder="Exemplo 1.80" /> <br /> <br />
+            <!-- button submit, enviar os dados -->
+            <input type="submit" value="Calcular IMC"/>
+        </form>
+        <!-- exibição dos dados na div -->
+        <div id="resultado"></div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

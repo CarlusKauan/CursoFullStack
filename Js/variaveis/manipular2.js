@@ -8,6 +8,7 @@ console.log(Nome) // Undefined
 var val1 = 10;
 var val2 = 5;
 
+// Operações Basicas
 var1 + val2;
 var1 - val2;
 var1 * val2;
