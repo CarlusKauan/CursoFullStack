@@ -33,5 +33,5 @@ let palavras = ["Marcos", "Vestibular", "Emily", 19, "Faculdade"]
 let resultado = palavras.filter((item)=>{
     return item.length > 2
 })
-
+''
 console.log(resultado)
